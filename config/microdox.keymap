@@ -54,7 +54,7 @@
 // |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |
 //             | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &as N1 LS(N1) &as N2 LS(N2) &as N3 LS(N3) &as N4 LS(N4) &as N5 LS(N5)   &as N6 LS(N6) &as N7 LS(N7) &as N8 LS(N8) &as N9 LS(N9) &as N10 LS(N10
+   &as N1 LS(N1) &as N2 LS(N2) &as N3 LS(N3) &as N4 LS(N4) &as N5 LS(N5)   &as N6 LS(N6) &as N7 LS(N7) &as N8 LS(N8) &as N9 LS(N9) &as N10 LS(N10)
    &kp GRAVE &kp LPAR &kp RPAR &lt NUM SQT &kp EQUAL   &kp BSLH &lt FN MINUS &kp LBKT &kp RBKT &kp SEMI
    &kp TILDE &kp LT   &kp GT   &kp DQT     &kp PLUS    &kp PIPE &kp UNDER    &kp LBRC &kp RBRC &kp COLN
                      &trans    &trans     &kp BSPC     &kp BSPC   &trans    &trans
