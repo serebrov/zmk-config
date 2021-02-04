@@ -14,9 +14,22 @@
 #define FN 3
 #define NUM 4
 
-#define AS(keycode) &ht keycode LS(keycode)
+// #define AS(keycode) &ht keycode LS(keycode)
 
 / {
+        behaviors {
+            as: auto_shift {
+                compatible = "zmk,behavior-hold-tap";
+                label = "AUTO_SHIFT";
+                #binding-cells = <2>;
+                tapping_term_ms = <125>;
+                quick_tap_ms = <0>;
+                flavor = "tap-preferred";
+                bindings = <&kp>, <&kp>;
+            };
+        };
+
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -27,9 +40,9 @@
 // |  Z  |  X  |  C  |  V  |  B   |   |  N  |  M   |  ,  |  .  |  /  |
 //             | CTL | SYM | SPC  |   | SPC | SYM  | SHT |
                         bindings = <
-   AS(Q) AS(W) AS(E) AS(R) AS(T)  AS(Y) AS(U) AS(I) AS(O) AS(P)
-   AS(A) AS(S) AS(D) AS(F) AS(G)  AS(H) AS(J) AS(K) AS(L) &mt RGUI RET
-   AS(Z) AS(X) AS(C) AS(V) AS(B)  AS(N) AS(M) COMMA DOT   FSLH
+   &as Q LS(Q) &as W LS(W) &as E LS(E) &as R LS(R) &as T LS(T)  &as Y LS(Y) &as U LS(U) &as I LS(I) &as O LS(O) &as P LS(P)
+   &as A LS(A) &as S LS(S) &as D LS(D) &as F LS(F) &as G LS(G)  &as H LS(H) &as J LS(J) &as K LS(K) &as L LS(L) &mt RGUI RET
+   &as Z LS(Z) &as X LS(X) &as C LS(C) &as V LS(V) &as B LS(B)  &as N LS(N) &as M LS(M) COMMA DOT   FSLH
           &sk LCTRL &sl SYM &lt NAV SPACE &lt NAV SPACE &sl SYM &sk RSHFT
                         >;
                 };
@@ -41,7 +54,7 @@
 // |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |
 //             | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   AS(N1)    AS(N2)   AS(N3)   AS(N4)      AS(N5)      AS(N6) AS(N7) AS(N8) AS(N9) AS(N0)
+   &as N1 LS(N1) &as N2 LS(N2) &as N3 LS(N3) &as N4 LS(N4) &as N5 LS(N5)   &as N6 LS(N6) &as N7 LS(N7) &as N8 LS(N8) &as N9 LS(N9) &as N10 LS(N10
    &kp GRAVE &kp LPAR &kp RPAR &lt NUM SQT &kp EQUAL   &kp BSLH &lt FN MINUS &kp LBKT &kp RBKT &kp SEMI
    &kp TILDE &kp LT   &kp GT   &kp DQT     &kp PLUS    &kp PIPE &kp UNDER    &kp LBRC &kp RBRC &kp COLN
                      &trans    &trans     &kp BSPC     &kp BSPC   &trans    &trans
