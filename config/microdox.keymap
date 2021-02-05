@@ -14,7 +14,7 @@
 #define FN 3
 #define NUM 4
 
-#define AS(keycode) &as keycode LS(keycode)
+#define AS(keycode) &as LS(keycode) keycode
 
 / {
         behaviors {
