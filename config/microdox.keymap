@@ -41,7 +41,7 @@
 //             | CTL | SYM | SPC  |   | SPC | SYM  | SHT |
                         bindings = <
    &as Q LS(Q) &as W LS(W) &as E LS(E) &as R LS(R) &as T LS(T)  &as Y LS(Y) &as U LS(U) &as I LS(I) &as O LS(O) &as P LS(P)
-   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI
+   &as A LS(A) &as S LS(S) &as D LS(D) &as F LS(F) &as G LS(G)  &as H LS(H) &as J LS(J) &as K LS(K) &as L LS(L) &mt RGUI RET
    &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
           &sk LCTRL &sl SYM &lt NAV SPACE &lt NAV SPACE &sl SYM &sk RSHFT
                         >;
