@@ -43,7 +43,7 @@
    AS(Q) AS(W) AS(E) AS(R) AS(T)        AS(Y) AS(U) AS(I)     AS(O)   AS(P)
    AS(A) AS(S) AS(D) AS(F) AS(G)        AS(H) AS(J) AS(K)     AS(L)   &mt RGUI RET
    AS(Z) AS(X) AS(C) AS(V) AS(B)        AS(N) AS(M) &kp COMMA &kp DOT &kp FSLH
-     &sk LCTRL &sl SYM &lt NAV SPACE     &lt NAV SPACE &sl SYM &sk RSHFT
+     &sk LCTRL &sl SYM &lt NAV SPACE    &lt NAV SPACE &sl SYM &sk RSHFT
                         >;
                 };
 
@@ -54,10 +54,10 @@
 // |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |
 //             | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &as N1 LS(N1) &as N2 LS(N2) &as N3 LS(N3) &as N4 LS(N4) &as N5 LS(N5)   &as N6 LS(N6) &as N7 LS(N7) &as N8 LS(N8) &as N9 LS(N9) &as N10 LS(N10)
+   AS(N1)    AS(N2)   AS(N3)   AS(N4)      AS(N5)      AS(N6)   AS(N7)       AS(N8)   AS(N9)   AS(N10)
    &kp GRAVE &kp LPAR &kp RPAR &lt NUM SQT &kp EQUAL   &kp BSLH &lt FN MINUS &kp LBKT &kp RBKT &kp SEMI
    &kp TILDE &kp LT   &kp GT   &kp DQT     &kp PLUS    &kp PIPE &kp UNDER    &kp LBRC &kp RBRC &kp COLN
-                     &trans    &trans     &kp BSPC     &kp BSPC   &trans    &trans
+                            &trans &trans  &kp BSPC    &kp BSPC &trans &trans
                         >;
                 };
 
