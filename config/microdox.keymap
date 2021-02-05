@@ -42,7 +42,7 @@
                         bindings = <
    AS(Q) AS(W) AS(E) AS(R) AS(T)        AS(Y) AS(U) AS(I)     AS(O)   AS(P)
    AS(A) AS(S) AS(D) AS(F) AS(G)        AS(H) AS(J) AS(K)     AS(L)   &mt RGUI RET
-   AS(Z) AS(X) AS(C) AS(V) AS(B)        AS(N) AS(M) &kp COMMA &kp DOT &kp FSLH
+   AS(Z) AS(X) AS(C) AS(V) AS(B)        AS(N) AS(M) &kp COMMA &kp DOT AS(FSLH)
      &sk LCTRL &sl SYM &lt NAV SPACE    &lt NAV SPACE &sl SYM &sk RSHFT
                         >;
                 };
