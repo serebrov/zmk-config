@@ -56,7 +56,7 @@
 // |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |
 //             | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   AS(N1) AS(N2) AS(N3) AS(N4) AS(N5)                  AS(N6)  AS(N7) AS(N8)  AS(N9)  AS(N10)
+   AS(N1) AS(N2) AS(N3) AS(N4) AS(N5)                  AS(N6)  AS(N7) AS(N8)  AS(N9)  &trans
    &kp GRAVE &kp LPAR &kp RPAR &lt NUM SQT &kp EQUAL   &kp BSLH &lt FN MINUS &kp LBKT &kp RBKT &kp SEMI
    &kp TILDE &kp LT   &kp GT   &kp DQT     &kp PLUS    &kp PIPE &kp UNDER    &kp LBRC &kp RBRC &kp COLN
                             &trans &trans  &kp BSPC    &kp BSPC &trans &trans
