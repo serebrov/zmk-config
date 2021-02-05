@@ -42,7 +42,7 @@
                         bindings = <
    &as Q LS(Q) &as W LS(W) &as E LS(E) &as R LS(R) &as T LS(T)  &as Y LS(Y) &as U LS(U) &as I LS(I) &as O LS(O) &as P LS(P)
    &as A LS(A) &as S LS(S) &as D LS(D) &as F LS(F) &as G LS(G)  &as H LS(H) &as J LS(J) &as K LS(K) &as L LS(L) &mt RGUI RET
-   &as Z LS(Z) &as X LS(X) &as C LS(C) &as V LS(V) &as B LS(B)  &as N LS(N) &as M LS(M) COMMA       DOT         FSLH
+   &as Z LS(Z) &as X LS(X) &as C LS(C) &as V LS(V) &as B LS(B)  &as N LS(N) &as M LS(M) &kp COMMA   &kp DOT     &kp FSLH
                    &sk LCTRL &sl SYM &lt NAV SPACE                       &lt NAV SPACE &sl SYM &sk RSHFT
                         >;
                 };
