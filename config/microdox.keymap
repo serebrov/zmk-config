@@ -68,9 +68,9 @@
 // | BT2 |     |     |      |     |   |  \  | ENT  |      |     |      |
 //             |     |      |     |   |     |      |      |
                         bindings = <
-   &kp RG(N1) &kp RG(N2) &kp RG(N3) &kp RG(N4) &kp RG(N5)   &kp HOME  &kp PGUP &kp PGDN  &kp END  &none 
-   &none      &none      &kp RG(O)  &kp TAB    &kp ESC      &kp LEFT  &kp DOWN &kp UP   &kp RIGHT     &none
-   &none      &none      &none      &kp DEL    &kp CAPS     &kp LA(LEFT)  &none &none   &kp LA(RIGHT) &none
+   &kp RG(N1) &kp RG(N2) &kp RG(N3) &kp RG(N4) &kp RG(N5)   &kp HOME      &kp PGUP  &kp PGDN  &kp END       &none 
+   &none      &none      &kp RG(O)  AS(TAB)    &kp ESC      &kp LEFT      &kp DOWN  &kp UP    &kp RIGHT     &none
+   &none      &none      &none      &kp DEL    &kp CAPS     &kp LA(LEFT)  &none     &none     &kp LA(RIGHT) &none
                             &trans   &trans    &trans       &kp BSPC   &trans   &trans
                         >;
                 };
